@@ -1,0 +1,72 @@
+# Auto Master (/visit /join /bots)
+# Chris Crypto Gaming & Financials
+# Youtube Channel : http://bit.ly/RCCYTC
+# Website : http://bit.ly/RealChrisCrypto
+# E-mail : chriscryptogaming@gmail.com 
+# ETH Donations : 0xf410dCC5b41BF683390aCF0d6D2f0CCb198f3f86 
+# BTC Donations : 19JEQQ3FbwBbgJToqeaS96SUv9rdJDcQaY 
+# Doge Donations : DFAZXeBAqnmcLzi3feWFRcdvXUfQbtdH1R 
+# ZEC Donations : t1S3drdqhXuPy98AYyyFxMbELxrJzWo8PTd 
+# LTC Donations : LcvCV8myf1zSNwV6WCcfR1Tg6RcFv8nHZU 
+# BCH Donations : qq95y380apm20xhrjtrc29y6vetuv8qgrvy8p3nwaf 
+# LTC Clickbot : http://bit.ly/2yOlhbx 
+# Doge Clickbot :http://bit.ly/3eAeQbb 
+# ZEC Clickbot : http://bit.ly/2XGncqW 
+# BTC Clickbot : http://bit.ly/2TVPDQB 
+# BCH Clickbot : http://bit.ly/2B9DqBd 
+# Support us on Brave! : http://bit.ly/3dgZ98w
+# Download Cryptotab : http://bit.ly/36pmJN
+
+# KNOWN ERRORS
+
+# During /visit 
+
+#'NoneType' object has no attribute 'group' 
+
+# Error on join_start
+
+# 	This error is caused from new bots that the start button must be clicked instead of 
+# 	using a /start command for some reason. This causes the script to not have a message to forward to host.
+
+# 	This error also can be caused by a bot that is not responding due to server side issues
+# 	or a connection issue on your side.
+
+#	This error can also occur when a bot or user is banned or no longer exists. When this is
+#	the case, it will also include a message with the error such as 'no user by this name could be 
+#	found.'
+
+#	To solve you can manually try or skip.
+
+
+# Database locked
+
+# 	Caused by the mobile device or connection which causes the script to continue to call for the
+# 	session database.
+
+#	To solve, simply go to the folder containing the session folder (location you placed the scripts)
+#	and delete the phone session. This will default the script and it will await a new log in pin code
+#	for the telegram account.
+
+
+# /Join sometimes causes a temporary join ban.
+
+####UPDATE####
+#	Sleep timer added, still receive error\temp ban sometimes. Generally on a new account for the first time.
+#	Ban is usually only 5-10 minutes. Run Join first, if banned go to visit or bots then back to join.	
+
+#	This error we are currently working on a fix and will have one soon. It is caused by a group or 
+#	channel with an inline message that has a human verification or a pinned message asking if you
+#	accept their terms and conditions or their rules. The script will continue to try and join until 
+# 	it receives a temp ban from joining.
+
+#	To solve, you can go to the bot, and manually type /bots to trigger the next stage of the script.
+#	This will cause the script to sleep and start again after the designated times. You can also close
+#	the script with cntl+c and re-run after the given time is over.
+
+
+# Data or internet connection disruption
+
+#	This is caused due to a disruption in your connection. This could be a spike or momentary loss of 
+#	connection or data. This will sometimes cause the script to stop in the sleep phase.
+
+#	To solve, reset the script.
